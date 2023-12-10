@@ -13,6 +13,7 @@ public class MyGameTest {
     Player player;
 
 
+    //тут можно ипользовать @BeforeAll, т.к. doors не меняется в тестах
     @BeforeEach
     void initialDoors() {
         doors = new ArrayList<>();
